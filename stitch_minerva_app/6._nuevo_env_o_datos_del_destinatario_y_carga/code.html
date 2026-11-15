@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-container": "#d7261e", "secondary-container": "#fe5c4b", "secondary": "#b4271d", "primary-fixed": "#ffdad5", "tertiary-fixed-dim": "#c8c6c5", "surface-container-highest": "#e5e2e1", "surface-dim": "#dcd9d9", "background": "#fcf9f8", "on-error": "#ffffff", "on-error-container": "#93000a", "on-secondary": "#ffffff", "on-primary-fixed": "#410001", "on-primary-container": "#fff1ee", "outline": "#916f6a", "on-tertiary-fixed-variant": "#474746", "on-secondary-fixed-variant": "#910908", "on-tertiary-fixed": "#1b1c1c", "primary-fixed-dim": "#ffb4a9", "on-secondary-fixed": "#410001", "inverse-primary": "#ffb4a9", "on-tertiary-container": "#f6f3f3", "surface-container-high": "#eae7e7", "outline-variant": "#e6bdb7", "inverse-on-surface": "#f3f0ef", "surface-container": "#f0eded", "tertiary": "#575757", "on-secondary-container": "#610001", "surface-container-low": "#f6f3f2", "inverse-surface": "#313030", "error-container": "#ffdad6", "on-surface": "#1c1b1b", "surface-bright": "#fcf9f8", "error": "#ba1a1a", "on-background": "#1c1b1b", "on-surface-variant": "#5c403c", "surface": "#fcf9f8", "secondary-fixed": "#ffdad5", "tertiary-container": "#706f6f", "secondary-fixed-dim": "#ffb4a9", "surface-tint": "#be0e0e", "tertiary-fixed": "#e4e2e1", "on-tertiary": "#ffffff", "primary": "#b20007", "on-primary": "#ffffff", "surface-container-lowest": "#ffffff", "surface-variant": "#e5e2e1", "on-primary-fixed-variant": "#930004" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xl": "2rem", "margin": "1rem", "space-lg": "1.5rem", "gutter-sm": "0.75rem", "margin-tablet": "1.5rem", "gutter": "1rem", "space-sm": "0.5rem", "space-md": "1rem", "space-xs": "0.25rem" }, "fontFamily": { "label-sm": ["Inter"], "body-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "currency-md": ["Inter"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Inter"], "headline-lg-mobile": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-code": ["Inter"], "headline-sm": ["Plus Jakarta Sans"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["30px", { "lineHeight": "38px", "fontWeight": "800" }], "currency-md": ["18px", { "lineHeight": "22px", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["13px", { "lineHeight": "16px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "800" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "700" }], "label-code": ["14px", { "lineHeight": "18px", "letterSpacing": "0.08em", "fontWeight": "700" }], "headline-sm": ["16px", { "lineHeight": "24px", "fontWeight": "700" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Volver" class="w-11 h-11 flex items-center justify-center rounded-lg text-on-surface hover:bg-surface-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[22px]">arrow_back</span></button><img alt="Expreso Marvisur Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCKC_nDgUw9KRnNAesXbfSRzedp9jax3VNlPnG-plKIKURFGC2X6EYtanje5w87Mn2b0X2spgkCrO5YRSIox0N14xprz64huiAsdU_DmyohaZ4A8CPOBH_HKRMb3gxevEa-O_GWl0_zC6GQYa5rA_txBKdLIem_LoCg90GRhc-k5OaRx9LFU67TF5xPmDGCPNh8WC7iIRwPDTT9D_nBuVWASDeX2l6_h03YtbMjQStGyQ"/><h1 class="font-headline-sm text-headline-sm text-on-surface truncate max-w-[190px]">Recepción De Encomiendas</h1></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-safe px-margin bg-surface"><div class="flex flex-col w-full pb-8">
+<!-- Stepper de Progreso y Ruta -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm mb-space-md mt-space-xs">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider">Paso 2 de 3</span>
+<span class="font-label-sm text-label-sm text-tertiary">Progreso 66%</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="w-6 h-1.5 rounded-full bg-primary"></span>
+<span class="w-6 h-1.5 rounded-full bg-primary"></span>
+<span class="w-6 h-1.5 rounded-full bg-surface-container-highest"></span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+</div>
+<div class="truncate">
+<p class="font-label-sm text-label-sm text-tertiary uppercase">Corredor Confirmado</p>
+<div class="flex items-center gap-1.5 text-on-surface">
+<span class="font-headline-sm text-headline-sm truncate">Lima (Fiori)</span>
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">arrow_forward</span>
+<span class="font-headline-sm text-headline-sm truncate">Arequipa (Term.)</span>
+</div>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded bg-surface-container text-tertiary font-label-code text-label-code shrink-0">S/ 42.00</span>
+</div>
+</div>
+<!-- Alerta Global de Error de Validación -->
+<div class="mb-space-md bg-error-container text-on-error-container rounded-xl p-space-md flex items-start gap-space-sm shadow-sm animate-pulse">
+<span class="material-symbols-outlined text-error shrink-0 mt-0.5 text-[20px]" style="font-variation-settings: 'FILL' 1;">error</span>
+<div class="flex-1">
+<p class="font-headline-sm text-headline-sm text-on-error-container">Atención requerida</p>
+<p class="font-body-sm text-body-sm text-on-error-container/90">Por favor corrige los campos marcados en rojo antes de continuar.</p>
+</div>
+</div>
+<!-- Formulario Principal -->
+<form class="flex flex-col gap-space-md" id="parcelForm" onsubmit="event.preventDefault();">
+<!-- Bloque 1: Datos del Destinatario -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-center gap-space-sm mb-space-md pb-space-xs">
+<div class="w-7 h-7 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">person</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Datos del Destinatario</h2>
+<p class="font-body-sm text-body-sm text-tertiary">Persona o empresa que retirará en Arequipa</p>
+</div>
+</div>
+<!-- Segmented Control DNI / RUC -->
+<div class="mb-space-md">
+<label class="block font-label-md text-label-md text-on-surface mb-space-xs">Tipo de documento</label>
+<div class="grid grid-cols-2 p-1 bg-surface-container rounded-xl">
+<button class="py-2.5 px-space-md rounded-lg bg-surface-container-lowest text-primary font-headline-sm text-headline-sm shadow-sm flex items-center justify-center gap-space-xs transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">badge</span>
+<span>DNI (8 dígitos)</span>
+</button>
+<button class="py-2.5 px-space-md rounded-lg text-tertiary font-body-md text-body-md flex items-center justify-center gap-space-xs hover:text-on-surface transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">corporate_fare</span>
+<span>RUC (11 dígitos)</span>
+</button>
+</div>
+</div>
+<!-- Número de documento CON ERROR EVIDENTE -->
+<div class="mb-space-md">
+<div class="flex justify-between items-center mb-space-xs">
+<label class="font-label-md text-label-md text-error flex items-center gap-1">
+<span>Número de Documento (DNI)</span>
+<span class="text-error font-bold">*</span>
+</label>
+<span class="font-label-sm text-label-sm text-error font-semibold">7/8 dígitos</span>
+</div>
+<!-- Input con error estilizado por fondo y contraste sin depender de borders -->
+<div class="relative rounded-lg bg-error-container/40 p-0.5">
+<div class="bg-surface-container-lowest rounded-[6px] flex items-center px-space-md h-12 shadow-[0_0_0_2px_#ba1a1a]">
+<input class="w-full bg-transparent font-label-code text-label-code text-on-surface focus:outline-none" id="docNumberInput" maxlength="8" placeholder="Ingresa los 8 dígitos" type="tel" value="4829103"/>
+<span class="material-symbols-outlined text-error text-[22px] shrink-0 ml-space-xs" style="font-variation-settings: 'FILL' 1;">error</span>
+</div>
+</div>
+<!-- Mensaje de error explícito solicitado -->
+<div class="flex items-center gap-1.5 mt-1.5 px-1">
+<span class="material-symbols-outlined text-error text-[16px]">priority_high</span>
+<p class="font-label-sm text-label-sm text-error font-medium">El DNI debe tener 8 dígitos completos</p>
+</div>
+</div>
+<!-- Nombres y Apellidos / Razón Social -->
+<div class="mb-space-md">
+<label class="block font-label-md text-label-md text-on-surface mb-space-xs">Nombres y Apellidos / Razón Social</label>
+<div class="bg-surface-container-low rounded-lg px-space-md h-12 flex items-center focus-within:bg-surface-container">
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface focus:outline-none" placeholder="Nombre completo del consignado" type="text" value="María Elena Valdivia Quispe"/>
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0">check_circle</span>
+</div>
+</div>
+<!-- Teléfono de contacto -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-space-xs">Teléfono de contacto (Notificaciones SMS/WhatsApp)</label>
+<div class="bg-surface-container-low rounded-lg px-space-md h-12 flex items-center focus-within:bg-surface-container">
+<div class="flex items-center gap-1 pr-space-sm mr-space-sm shrink-0">
+<span class="font-headline-sm text-headline-sm">🇵🇪</span>
+<span class="font-label-md text-label-md text-on-surface">+51</span>
+</div>
+<input class="w-full bg-transparent font-label-code text-label-code text-on-surface focus:outline-none" placeholder="900 000 000" type="tel" value="958 123 456"/>
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0">call</span>
+</div>
+</div>
+</div>
+<!-- Bloque 2: Datos de la Carga -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-center gap-space-sm mb-space-md pb-space-xs">
+<div class="w-7 h-7 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">inventory_2</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Detalle de la Carga</h2>
+<p class="font-body-sm text-body-sm text-tertiary">Clasificación, peso y contenido del bulto</p>
+</div>
+</div>
+<!-- Tipo de Bulto Selector Segmentado con Iconos -->
+<div class="mb-space-md">
+<label class="block font-label-md text-label-md text-on-surface mb-space-xs">Tipo de bulto</label>
+<div class="grid grid-cols-3 gap-space-xs">
+<!-- Sobre -->
+<button class="flex flex-col items-center justify-center p-space-sm rounded-xl bg-surface-container-low text-tertiary hover:bg-surface-container transition-all min-h-[72px]" type="button">
+<span class="material-symbols-outlined text-[24px] mb-1">mail</span>
+<span class="font-label-md text-label-md">Sobre</span>
+</button>
+<!-- Caja (SELECCIONADO ROJO CORPORATIVO) -->
+<button class="flex flex-col items-center justify-center p-space-sm rounded-xl bg-primary text-on-primary shadow-md min-h-[72px] relative transform scale-[1.02] transition-transform" type="button">
+<span class="absolute top-1 right-1.5 w-2 h-2 rounded-full bg-secondary-fixed"></span>
+<span class="material-symbols-outlined text-[24px] mb-1" style="font-variation-settings: 'FILL' 1;">package_2</span>
+<span class="font-headline-sm text-headline-sm">Caja</span>
+</button>
+<!-- Paquete -->
+<button class="flex flex-col items-center justify-center p-space-sm rounded-xl bg-surface-container-low text-tertiary hover:bg-surface-container transition-all min-h-[72px]" type="button">
+<span class="material-symbols-outlined text-[24px] mb-1">deployed_code</span>
+<span class="font-label-md text-label-md">Paquete</span>
+</button>
+</div>
+</div>
+<!-- Descripción del contenido -->
+<div class="mb-space-md">
+<div class="flex justify-between items-center mb-space-xs">
+<label class="font-label-md text-label-md text-on-surface">Descripción del contenido</label>
+<span class="font-label-sm text-label-sm text-tertiary">Frágil</span>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm focus-within:bg-surface-container">
+<textarea class="w-full bg-transparent font-body-md text-body-md text-on-surface focus:outline-none resize-none" placeholder="Especifica el contenido para el rotulado de seguridad..." rows="3">Documentos comerciales y repuestos de cómputo frágiles</textarea>
+<div class="flex items-center justify-between pt-1">
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[16px]">warning</span>
+              Manipulación delicada
+            </span>
+<span class="font-label-sm text-label-sm text-tertiary">54/200</span>
+</div>
+</div>
+</div>
+<!-- Peso estimado (kg) & Volumen -->
+<div class="grid grid-cols-2 gap-space-sm mb-space-md">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-space-xs">Peso estimado</label>
+<div class="bg-surface-container-low rounded-lg px-space-md h-12 flex items-center justify-between focus-within:bg-surface-container">
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface focus:outline-none" type="text" value="4.5 kg"/>
+<span class="material-symbols-outlined text-tertiary text-[20px]">scale</span>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-tertiary mb-space-xs">Cálculo Volumétrico</label>
+<div class="bg-surface-container rounded-lg px-space-md h-12 flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-tertiary">30×20×15 cm</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">1.8 vkg</span>
+</div>
+</div>
+</div>
+<!-- Galería Placeholder de Carga Registrada -->
+<div class="mb-space-xs">
+<label class="block font-label-md text-label-md text-on-surface mb-space-xs">Inspección preliminar de bultos</label>
+<div class="grid grid-cols-3 gap-space-xs">
+<div class="relative rounded-lg overflow-hidden h-20 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Caja sellada de cartón corrugado industrial con precinto de seguridad rojo Expreso Marvisur sobre balanza de almacén con iluminación técnica tenue" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASrbcRi6GkVRXMnj1ikBe7AEagTfXk8LO9bXurw_OV8NppIfch8nQODuLdvZKyNlCuS5Z1A2DRGbFJrLmOcqC2cIA8k8T2TYQWZzszLxnNOMy3Kdh2ExrkfwHOWiqp-b4JrTGj8mCwiySEpJs1yV9K1B0VUY06O3WNpON1k6M0oiDkN1iwNH9-f7Q-GpJ1FUkexqXrbi9i5sm72ral-phihSSuDxetqUvgHkLTy99z"/>
+<span class="absolute bottom-1 right-1 bg-surface-container-highest/80 backdrop-blur text-[10px] font-label-sm px-1 rounded text-on-surface">Frontal</span>
+</div>
+<div class="relative rounded-lg overflow-hidden h-20 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Primer plano de etiqueta frágil y código de barras pegado con cinta reflectante sobre embalaje de envío logístico terrestre" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlCb6h7m3bhvgX1ARH9CBc6WJjVLRW9vqyI1gtQP6rPxCp096bTQfSQPr0d24ES5_-GUu00-LzPGaSmhR9eGDRwQ14eco7hNjd1mJ7aWq5Nq_MGhBOC7Es1QTK-s-ozAEazWxJQXw6WHrrHImTi0XQYN8z6rkviCV_f3C1PwjB9ghV1ZZoRVpzpMtur8hJXAKM1dKDtIpcSkT2kfVjMSg7185HoHOkBSnwNW05zuIf"/>
+<span class="absolute bottom-1 right-1 bg-surface-container-highest/80 backdrop-blur text-[10px] font-label-sm px-1 rounded text-on-surface">Etiqueta</span>
+</div>
+<div class="rounded-lg h-20 bg-surface-container-low flex flex-col items-center justify-center text-tertiary p-2 text-center">
+<span class="material-symbols-outlined text-[20px] mb-0.5">add_a_photo</span>
+<span class="font-label-sm text-[10px] leading-tight text-tertiary">Foto adicional</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 3. Botón Secundario Destacado: Evidencia Multimedia -->
+<button class="w-full bg-surface-container-lowest hover:bg-surface-container-low rounded-xl p-space-md shadow-sm flex items-center justify-between text-left transition-all active:scale-[0.99]" onclick="alert('Abriendo cámara para captura de guía y precintos de seguridad')" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[26px]">photo_camera</span>
+</div>
+<div class="truncate">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface">Adjuntar evidencia multimedia</span>
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+</div>
+<p class="font-body-sm text-body-sm text-tertiary truncate">Fotos / video de la carga para mayor seguridad</p>
+</div>
+</div>
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface shrink-0 ml-space-xs">
+<span class="material-symbols-outlined text-[20px]">attachment</span>
+</div>
+</button>
+<!-- Resumen de Tarifa y Seguro -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between py-1">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">verified_user</span>
+<span class="font-body-md text-body-md text-on-surface">Seguro de Carga y Rotulado Especial</span>
+</div>
+<span class="font-currency-md text-currency-md text-on-surface">S/ 5.00</span>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-md text-body-md text-tertiary">Flete terrestre Lima - Arequipa</span>
+<span class="font-currency-md text-currency-md text-on-surface">S/ 37.00</span>
+</div>
+<div class="pt-space-xs mt-space-xs flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Monto Estimado</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary">S/ 42.00</span>
+</div>
+</div>
+<!-- 5. Botón Principal: Generar Pre-registro -->
+<div class="pt-space-xs">
+<button class="w-full h-12 bg-primary hover:bg-secondary text-on-primary font-headline-sm text-headline-sm rounded-lg flex items-center justify-center gap-space-sm shadow-md active:bg-secondary transition-all" id="submitBtn" onclick="validateAndSubmit()" type="button">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+<span>Generar Pre-registro</span>
+</button>
+<p class="font-label-sm text-label-sm text-center text-tertiary mt-2">
+        Al continuar, se emitirá una constancia digital con código QR para ventanilla
+      </p>
+</div>
+</form>
+</div>
+<script>
+  function validateAndSubmit() {
+    const input = document.getElementById('docNumberInput');
+    if (input.value.length < 8) {
+      input.focus();
+      input.classList.add('animate-shake');
+      setTimeout(() => input.classList.remove('animate-shake'), 600);
+    } else {
+      alert('¡Pre-registro generado con éxito para Expreso Marvisur!');
+    }
+  }
+</script></main></body></html>

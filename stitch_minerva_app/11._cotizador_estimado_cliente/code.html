@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-container": "#d7261e", "secondary-container": "#fe5c4b", "secondary": "#b4271d", "primary-fixed": "#ffdad5", "tertiary-fixed-dim": "#c8c6c5", "surface-container-highest": "#e5e2e1", "surface-dim": "#dcd9d9", "background": "#fcf9f8", "on-error": "#ffffff", "on-error-container": "#93000a", "on-secondary": "#ffffff", "on-primary-fixed": "#410001", "on-primary-container": "#fff1ee", "outline": "#916f6a", "on-tertiary-fixed-variant": "#474746", "on-secondary-fixed-variant": "#910908", "on-tertiary-fixed": "#1b1c1c", "primary-fixed-dim": "#ffb4a9", "on-secondary-fixed": "#410001", "inverse-primary": "#ffb4a9", "on-tertiary-container": "#f6f3f3", "surface-container-high": "#eae7e7", "outline-variant": "#e6bdb7", "inverse-on-surface": "#f3f0ef", "surface-container": "#f0eded", "tertiary": "#575757", "on-secondary-container": "#610001", "surface-container-low": "#f6f3f2", "inverse-surface": "#313030", "error-container": "#ffdad6", "on-surface": "#1c1b1b", "surface-bright": "#fcf9f8", "error": "#ba1a1a", "on-background": "#1c1b1b", "on-surface-variant": "#5c403c", "surface": "#fcf9f8", "secondary-fixed": "#ffdad5", "tertiary-container": "#706f6f", "secondary-fixed-dim": "#ffb4a9", "surface-tint": "#be0e0e", "tertiary-fixed": "#e4e2e1", "on-tertiary": "#ffffff", "primary": "#b20007", "on-primary": "#ffffff", "surface-container-lowest": "#ffffff", "surface-variant": "#e5e2e1", "on-primary-fixed-variant": "#930004" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xl": "2rem", "margin": "1rem", "space-lg": "1.5rem", "gutter-sm": "0.75rem", "margin-tablet": "1.5rem", "gutter": "1rem", "space-sm": "0.5rem", "space-md": "1rem", "space-xs": "0.25rem" }, "fontFamily": { "label-sm": ["Inter"], "body-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "currency-md": ["Inter"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Inter"], "headline-lg-mobile": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-code": ["Inter"], "headline-sm": ["Plus Jakarta Sans"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["30px", { "lineHeight": "38px", "fontWeight": "800" }], "currency-md": ["18px", { "lineHeight": "22px", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["13px", { "lineHeight": "16px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "800" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "700" }], "label-code": ["14px", { "lineHeight": "18px", "letterSpacing": "0.08em", "fontWeight": "700" }], "headline-sm": ["16px", { "lineHeight": "24px", "fontWeight": "700" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Volver" class="w-11 h-11 flex items-center justify-center rounded-lg text-on-surface hover:bg-surface-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[22px]">arrow_back</span></button><img alt="Expreso Marvisur Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCKC_nDgUw9KRnNAesXbfSRzedp9jax3VNlPnG-plKIKURFGC2X6EYtanje5w87Mn2b0X2spgkCrO5YRSIox0N14xprz64huiAsdU_DmyohaZ4A8CPOBH_HKRMb3gxevEa-O_GWl0_zC6GQYa5rA_txBKdLIem_LoCg90GRhc-k5OaRx9LFU67TF5xPmDGCPNh8WC7iIRwPDTT9D_nBuVWASDeX2l6_h03YtbMjQStGyQ"/><h1 class="font-headline-sm text-headline-sm text-on-surface truncate max-w-[190px]">Recepción De Encomiendas</h1></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-safe px-margin bg-surface"><div class="flex flex-col w-full pb-8">
+<!-- Interactive Form Deck -->
+<div class="flex flex-col gap-space-md pt-space-xs">
+<!-- Route Corridor Selector -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">route</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Ruta de Envío</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary bg-surface-container-high px-space-sm py-0.5 rounded-full">Nacional</span>
+</div>
+<!-- Departure Agency -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-tertiary flex items-center gap-1" for="agency-origin">
+<span class="w-2 h-2 rounded-full bg-primary inline-block"></span>
+          ORIGEN (CIUDAD Y AGENCIA)
+        </label>
+<div class="relative bg-surface-container-lowest rounded-lg shadow-sm flex items-center px-space-md py-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] mr-space-sm">warehouse</span>
+<select class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface focus:outline-none appearance-none cursor-pointer" id="agency-origin">
+<option selected="" value="LIM-FIO">Lima - Agencia Fiori</option>
+<option value="LIM-LVI">Lima - La Victoria (Principal)</option>
+<option value="LIM-ATE">Lima - Agencia Ate Vitarte</option>
+<option value="AQP-PAR">Arequipa - Parque Industrial</option>
+<option value="TRU-HER">Trujillo - Av. Mansiche</option>
+<option value="CUS-WNA">Cusco - Wanchaq</option>
+</select>
+<span class="material-symbols-outlined text-tertiary pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Interactive Route Switch Visual Indicator -->
+<div class="flex items-center justify-center -my-2 relative z-10">
+<button aria-label="Intercambiar origen y destino" class="w-9 h-9 rounded-full bg-surface-container-lowest shadow-md flex items-center justify-center text-primary active:scale-95 transition-transform hover:bg-surface-container-high" id="btn-swap-route" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_vert</span>
+</button>
+</div>
+<!-- Destination Agency -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-tertiary flex items-center gap-1" for="agency-dest">
+<span class="w-2 h-2 rounded-full bg-tertiary inline-block"></span>
+          DESTINO (CIUDAD Y AGENCIA)
+        </label>
+<div class="relative bg-surface-container-lowest rounded-lg shadow-sm flex items-center px-space-md py-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] mr-space-sm">pin_drop</span>
+<select class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface focus:outline-none appearance-none cursor-pointer" id="agency-dest">
+<option selected="" value="AQP-TER">Arequipa - Terminal Terrestre</option>
+<option value="AQP-PAR">Arequipa - Parque Industrial</option>
+<option value="CUS-WNA">Cusco - Terminal Terrestre</option>
+<option value="PUN-JUL">Puno - Juliaca Agencia Central</option>
+<option value="TAC-INT">Tacna - Terminal Internacional</option>
+<option value="LIM-LVI">Lima - La Victoria</option>
+</select>
+<span class="material-symbols-outlined text-tertiary pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Package Dimensions & Weight Card -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">package_2</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Medidas y Carga</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Factor: 5,000 cm³/kg</span>
+</div>
+<!-- Physical Weight Input -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex justify-between items-center">
+<label class="font-label-sm text-label-sm text-tertiary" for="input-weight">PESO FÍSICO BASCULA</label>
+<span class="font-body-sm text-body-sm text-tertiary">Bulto estándar</span>
+</div>
+<div class="relative bg-surface-container-lowest rounded-lg shadow-sm flex items-center px-space-md py-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px] mr-space-sm">scale</span>
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface focus:outline-none" id="input-weight" max="3000" min="0.5" placeholder="5.0" step="0.5" type="number" value="5.0"/>
+<span class="font-label-md text-label-md text-tertiary ml-space-xs">kg</span>
+</div>
+</div>
+<!-- Volumetric 3-Column Grid -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-tertiary">DIMENSIONES DEL PAQUETE</label>
+<div class="grid grid-cols-3 gap-space-xs">
+<!-- Largo -->
+<div class="bg-surface-container-lowest rounded-lg p-space-sm shadow-sm flex flex-col gap-0.5">
+<span class="font-label-sm text-label-sm text-tertiary">Largo (cm)</span>
+<div class="flex items-center justify-between">
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface focus:outline-none" id="dim-largo" max="600" min="1" type="number" value="35"/>
+<span class="font-body-sm text-body-sm text-tertiary">cm</span>
+</div>
+</div>
+<!-- Ancho -->
+<div class="bg-surface-container-lowest rounded-lg p-space-sm shadow-sm flex flex-col gap-0.5">
+<span class="font-label-sm text-label-sm text-tertiary">Ancho (cm)</span>
+<div class="flex items-center justify-between">
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface focus:outline-none" id="dim-ancho" max="250" min="1" type="number" value="25"/>
+<span class="font-body-sm text-body-sm text-tertiary">cm</span>
+</div>
+</div>
+<!-- Alto -->
+<div class="bg-surface-container-lowest rounded-lg p-space-sm shadow-sm flex flex-col gap-0.5">
+<span class="font-label-sm text-label-sm text-tertiary">Alto (cm)</span>
+<div class="flex items-center justify-between">
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface focus:outline-none" id="dim-alto" max="250" min="1" type="number" value="20"/>
+<span class="font-body-sm text-body-sm text-tertiary">cm</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Volumetric Calculation Live Badge -->
+<div class="bg-surface-container rounded-lg p-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[18px]">calculate</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Peso volumétrico computado:</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-sm text-headline-sm text-primary" id="vol-result">3.50</span>
+<span class="font-body-sm text-body-sm text-primary">kg vol</span>
+</div>
+</div>
+</div>
+<!-- Multimedia Evidence Feature Button (Linked to special packages) -->
+<button class="w-full bg-surface-container-lowest shadow-sm hover:bg-surface-container-low active:bg-surface-container text-on-surface rounded-xl p-space-md flex items-center justify-between transition-all" id="btn-attach-evidence" type="button">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">photo_camera</span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-headline-sm text-headline-sm text-on-surface">Adjuntar evidencia multimedia</span>
+<span class="font-body-sm text-body-sm text-tertiary">Para bultos con forma irregular o frágiles</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-tertiary text-[20px]">chevron_right</span>
+</button>
+<!-- Primary Action Button: Calculate -->
+<button class="w-full h-12 bg-primary hover:bg-secondary active:scale-[0.99] text-on-primary rounded-lg flex items-center justify-center gap-space-xs shadow-md transition-all" id="btn-calculate" type="button">
+<span class="material-symbols-outlined text-[20px]">payments</span>
+<span class="font-headline-sm text-headline-sm tracking-wide">Calcular Tarifa</span>
+</button>
+<!-- Calculation Results Card (Responsive to calculation) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-space-md transition-all" id="quote-result-card">
+<!-- Card Header -->
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">receipt_long</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Resumen de Cotización</span>
+</div>
+<span class="font-label-code text-label-code bg-surface-container-low text-on-surface px-space-xs py-0.5 rounded">COT-7749</span>
+</div>
+<!-- Main Estimated Cost Banner -->
+<div class="bg-gradient-to-br from-surface-container-low via-surface-container to-surface-container-low rounded-xl p-space-md flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Tarifa Estimada</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight" id="total-price-display">S/ 48.50</span>
+<span class="font-body-sm text-body-sm text-tertiary">PEN</span>
+</div>
+<span class="font-body-sm text-body-sm text-tertiary mt-0.5">Incluye IGV (18%)</span>
+</div>
+<div class="flex flex-col items-end">
+<div class="bg-surface-container-lowest shadow-sm px-space-sm py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[16px]">schedule</span>
+<span class="font-label-md text-label-md text-on-surface">24 - 48 hrs</span>
+</div>
+<span class="font-body-sm text-body-sm text-tertiary mt-1">Tránsito estándar</span>
+</div>
+</div>
+<!-- Itemized Cost Breakdown -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex justify-between items-center">
+<span class="font-body-md text-body-md text-tertiary">Flete base tasado (<span id="billed-weight-label">5.0 kg</span>)</span>
+<span class="font-headline-sm text-headline-sm text-on-surface" id="base-freight-display">S/ 42.00</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-body-md text-tertiary">Seguro básico de carga protegida</span>
+<span class="font-headline-sm text-headline-sm text-on-surface" id="insurance-display">S/ 6.50</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-body-md text-tertiary">Ruta interprovincial</span>
+<span class="font-body-md text-body-md text-on-surface font-semibold" id="route-label-display">Lima ➔ Arequipa</span>
+</div>
+</div>
+<!-- Mandatory Prominent Warning Notice -->
+<div class="bg-error-container/40 rounded-lg p-space-sm flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">info</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">Nota Importante</span>
+<p class="font-body-md text-body-md text-on-surface-variant font-medium leading-tight mt-0.5">
+            Precio referencial, sujeto a pesaje físico en sede.
+          </p>
+</div>
+</div>
+<!-- Next Step Primary Action Button -->
+<button class="w-full h-12 bg-primary hover:bg-secondary active:scale-[0.99] text-on-primary rounded-lg flex items-center justify-center gap-space-sm shadow-md transition-all mt-space-xs" id="btn-pre-register" type="button">
+<span class="font-headline-sm text-headline-sm">Iniciar Pre-registro con esta cotización</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<!-- Secondary Help Link -->
+<div class="flex items-center justify-center pt-space-xs">
+<button class="font-label-md text-label-md text-tertiary hover:text-primary flex items-center gap-1 transition-colors" id="btn-restrictions" type="button">
+<span class="material-symbols-outlined text-[16px]">help_outline</span>
+          Ver artículos restringidos y condiciones de flete
+        </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const inputWeight = document.getElementById('input-weight');
+    const dimLargo = document.getElementById('dim-largo');
+    const dimAncho = document.getElementById('dim-ancho');
+    const dimAlto = document.getElementById('dim-alto');
+    const volResult = document.getElementById('vol-result');
+    const btnCalculate = document.getElementById('btn-calculate');
+    const btnSwap = document.getElementById('btn-swap-route');
+    const originSelect = document.getElementById('agency-origin');
+    const destSelect = document.getElementById('agency-dest');
+    
+    const totalPriceDisplay = document.getElementById('total-price-display');
+    const baseFreightDisplay = document.getElementById('base-freight-display');
+    const billedWeightLabel = document.getElementById('billed-weight-label');
+    const routeLabelDisplay = document.getElementById('route-label-display');
+    const btnAttach = document.getElementById('btn-attach-evidence');
+    const btnPreRegister = document.getElementById('btn-pre-register');
+
+    function calculateVolumetric() {
+      const l = parseFloat(dimLargo.value) || 0;
+      const w = parseFloat(dimAncho.value) || 0;
+      const h = parseFloat(dimAlto.value) || 0;
+      const vol = (l * w * h) / 5000;
+      volResult.textContent = vol.toFixed(2);
+      return vol;
+    }
+
+    function updateTariff() {
+      const physicalWeight = parseFloat(inputWeight.value) || 1.0;
+      const volumetricWeight = calculateVolumetric();
+      const chargeableWeight = Math.max(physicalWeight, volumetricWeight);
+      
+      // Base calculation: S/ 25 flat minimum + S/ 3.50 per kg beyond 2kg
+      let flete = 25.0;
+      if (chargeableWeight > 2) {
+        flete += (chargeableWeight - 2) * 4.75;
+      }
+      const seguro = 6.50;
+      const total = flete + seguro;
+
+      totalPriceDisplay.textContent = 'S/ ' + total.toFixed(2);
+      baseFreightDisplay.textContent = 'S/ ' + flete.toFixed(2);
+      billedWeightLabel.textContent = chargeableWeight.toFixed(1) + ' kg (' + (physicalWeight >= volumetricWeight ? 'Peso Real' : 'Volumen') + ')';
+      
+      const originText = originSelect.options[originSelect.selectedIndex].text.split(' - ')[0];
+      const destText = destSelect.options[destSelect.selectedIndex].text.split(' - ')[0];
+      routeLabelDisplay.textContent = originText + ' ➔ ' + destText;
+    }
+
+    // Dynamic listeners
+    dimLargo.addEventListener('input', calculateVolumetric);
+    dimAncho.addEventListener('input', calculateVolumetric);
+    dimAlto.addEventListener('input', calculateVolumetric);
+    
+    btnCalculate.addEventListener('click', function() {
+      updateTariff();
+      // Scroll gently to the results card
+      const resultCard = document.getElementById('quote-result-card');
+      resultCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+
+    btnSwap.addEventListener('click', function() {
+      const tempVal = originSelect.value;
+      const tempIndex = originSelect.selectedIndex;
+      // Soft visual toggle between typical hubs
+      if (originSelect.selectedIndex !== destSelect.selectedIndex) {
+        const destIdx = destSelect.selectedIndex;
+        destSelect.selectedIndex = tempIndex;
+        originSelect.selectedIndex = destIdx;
+      }
+      updateTariff();
+    });
+
+    originSelect.addEventListener('change', updateTariff);
+    destSelect.addEventListener('change', updateTariff);
+
+    btnAttach.addEventListener('click', function() {
+      const confirmation = document.createElement('div');
+      confirmation.className = 'fixed bottom-4 left-4 right-4 bg-surface-container-highest text-on-surface px-4 py-3 rounded-lg shadow-lg flex items-center gap-2 z-50 animate-bounce';
+      confirmation.innerHTML = '<span class="material-symbols-outlined text-primary">add_a_photo</span><span class="font-body-md">Redirigiendo a captura multimedia de bulto...</span>';
+      document.body.appendChild(confirmation);
+      setTimeout(() => confirmation.remove(), 2500);
+    });
+
+    btnPreRegister.addEventListener('click', function() {
+      const confirmation = document.createElement('div');
+      confirmation.className = 'fixed bottom-4 left-4 right-4 bg-primary text-on-primary px-4 py-3 rounded-lg shadow-xl flex items-center justify-between z-50';
+      confirmation.innerHTML = '<div class="flex items-center gap-2"><span class="material-symbols-outlined">task_alt</span><span class="font-headline-sm text-headline-sm">Iniciando pre-registro digital...</span></div><span class="font-label-code text-label-code bg-black/20 px-2 py-1 rounded">MARVISUR</span>';
+      document.body.appendChild(confirmation);
+      setTimeout(() => confirmation.remove(), 2800);
+    });
+
+    // Initial calculation
+    calculateVolumetric();
+  })();
+</script></main></body></html>

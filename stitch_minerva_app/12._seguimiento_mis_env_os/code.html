@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-container": "#d7261e", "secondary-container": "#fe5c4b", "secondary": "#b4271d", "primary-fixed": "#ffdad5", "tertiary-fixed-dim": "#c8c6c5", "surface-container-highest": "#e5e2e1", "surface-dim": "#dcd9d9", "background": "#fcf9f8", "on-error": "#ffffff", "on-error-container": "#93000a", "on-secondary": "#ffffff", "on-primary-fixed": "#410001", "on-primary-container": "#fff1ee", "outline": "#916f6a", "on-tertiary-fixed-variant": "#474746", "on-secondary-fixed-variant": "#910908", "on-tertiary-fixed": "#1b1c1c", "primary-fixed-dim": "#ffb4a9", "on-secondary-fixed": "#410001", "inverse-primary": "#ffb4a9", "on-tertiary-container": "#f6f3f3", "surface-container-high": "#eae7e7", "outline-variant": "#e6bdb7", "inverse-on-surface": "#f3f0ef", "surface-container": "#f0eded", "tertiary": "#575757", "on-secondary-container": "#610001", "surface-container-low": "#f6f3f2", "inverse-surface": "#313030", "error-container": "#ffdad6", "on-surface": "#1c1b1b", "surface-bright": "#fcf9f8", "error": "#ba1a1a", "on-background": "#1c1b1b", "on-surface-variant": "#5c403c", "surface": "#fcf9f8", "secondary-fixed": "#ffdad5", "tertiary-container": "#706f6f", "secondary-fixed-dim": "#ffb4a9", "surface-tint": "#be0e0e", "tertiary-fixed": "#e4e2e1", "on-tertiary": "#ffffff", "primary": "#b20007", "on-primary": "#ffffff", "surface-container-lowest": "#ffffff", "surface-variant": "#e5e2e1", "on-primary-fixed-variant": "#930004" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xl": "2rem", "margin": "1rem", "space-lg": "1.5rem", "gutter-sm": "0.75rem", "margin-tablet": "1.5rem", "gutter": "1rem", "space-sm": "0.5rem", "space-md": "1rem", "space-xs": "0.25rem" }, "fontFamily": { "label-sm": ["Inter"], "body-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "currency-md": ["Inter"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Inter"], "headline-lg-mobile": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-code": ["Inter"], "headline-sm": ["Plus Jakarta Sans"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["30px", { "lineHeight": "38px", "fontWeight": "800" }], "currency-md": ["18px", { "lineHeight": "22px", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["13px", { "lineHeight": "16px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "800" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "700" }], "label-code": ["14px", { "lineHeight": "18px", "letterSpacing": "0.08em", "fontWeight": "700" }], "headline-sm": ["16px", { "lineHeight": "24px", "fontWeight": "700" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Expreso Marvisur Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCKC_nDgUw9KRnNAesXbfSRzedp9jax3VNlPnG-plKIKURFGC2X6EYtanje5w87Mn2b0X2spgkCrO5YRSIox0N14xprz64huiAsdU_DmyohaZ4A8CPOBH_HKRMb3gxevEa-O_GWl0_zC6GQYa5rA_txBKdLIem_LoCg90GRhc-k5OaRx9LFU67TF5xPmDGCPNh8WC7iIRwPDTT9D_nBuVWASDeX2l6_h03YtbMjQStGyQ"/><div class="flex flex-col justify-center pl-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Expreso Marvisur</span><span class="font-headline-sm text-headline-sm leading-tight text-on-surface">Inicio</span></div></div><div class="flex items-center gap-space-sm"><button aria-label="Notificaciones operativas" class="w-11 h-11 flex items-center justify-center rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 px-margin bg-surface"><div class="flex flex-col w-full gap-space-md">
+<!-- Banner Estado de Red & Título -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight">Seguimiento de Envíos</h1>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+        Red Satelital Activa
+      </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+      Rastreo satelital en tiempo real de tus guías de remisión a nivel nacional.
+    </p>
+</div>
+<!-- Barra de Búsqueda Rápida & Escáner -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-tertiary text-[20px]">search</span>
+<input aria-label="Código de seguimiento" class="w-full bg-surface-container-low text-on-surface font-label-code text-label-code pl-10 pr-24 py-3 rounded-lg focus:outline-none focus:bg-surface-container transition-colors uppercase placeholder:normal-case placeholder:font-body-md placeholder:text-tertiary" id="trackingInput" placeholder="Ej. GRT-001-0048291 o MVS-7K4P" type="text"/>
+<div class="absolute right-1.5 flex items-center gap-1">
+<button aria-label="Escanear código físico" class="w-9 h-9 flex items-center justify-center rounded-lg bg-surface-container text-on-surface-variant hover:text-primary active:scale-95 transition-transform" id="btnScan" title="Escanear ticket físico">
+<span class="material-symbols-outlined text-[20px]">qr_code_scanner</span>
+</button>
+<button class="h-9 px-3 bg-primary text-on-primary font-label-md text-label-md rounded-lg flex items-center justify-center active:bg-secondary transition-colors" id="btnSearch">
+          Buscar
+        </button>
+</div>
+</div>
+<div class="flex items-center justify-between px-1 pt-1 text-on-surface-variant">
+<span class="font-body-sm text-body-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-tertiary">info</span>
+        Puedes ingresar N° de guía o remisión física
+      </span>
+<button class="font-label-sm text-label-sm text-primary hover:underline">Historial</button>
+</div>
+</div>
+<!-- Filtros / Pestañas de Estado -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 -mx-margin px-margin">
+<button class="filter-pill flex-shrink-0 px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm transition-all" data-filter="all">
+      Todos (3)
+    </button>
+<button class="filter-pill flex-shrink-0 px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all" data-filter="transit">
+      En tránsito (1)
+    </button>
+<button class="filter-pill flex-shrink-0 px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all" data-filter="pickup">
+      Por retirar (1)
+    </button>
+<button class="filter-pill flex-shrink-0 px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all" data-filter="reception">
+      Recepcionados (1)
+    </button>
+</div>
+<!-- Lista de Envíos Activos -->
+<div class="flex flex-col gap-space-md" id="shipmentList">
+<!-- ENVÍO 1: En tránsito -->
+<article class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative overflow-hidden transition-all hover:shadow-md cursor-pointer" data-category="transit">
+<!-- Decoración de ruta activa -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary"></div>
+<!-- Cabecera de Tarjeta: Código + Badge -->
+<div class="flex items-center justify-between gap-2 pl-1">
+<div class="flex items-center gap-1.5 bg-surface-container-low px-2 py-1 rounded-lg">
+<span class="material-symbols-outlined text-[16px] text-primary">local_shipping</span>
+<span class="font-label-code text-label-code text-on-surface">GRT-001-0048291</span>
+<button class="copy-btn text-tertiary hover:text-primary p-0.5" data-code="GRT-001-0048291" title="Copiar código">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">moving</span>
+          En tránsito
+        </span>
+</div>
+<!-- Origen y Destino -->
+<div class="flex items-center justify-between pt-1 pl-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary">ORIGEN</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Lima (Fiori)</span>
+</div>
+<div class="flex flex-col items-center px-2">
+<span class="font-label-sm text-label-sm text-primary font-bold">Corredor Sur</span>
+<div class="w-16 h-0.5 bg-surface-container-highest my-1 relative">
+<div class="absolute left-1/2 -top-1 w-2.5 h-2.5 rounded-full bg-primary -translate-x-1/2"></div>
+</div>
+<span class="font-body-sm text-body-sm text-tertiary">GPS Activo</span>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-tertiary">DESTINO</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Arequipa (Term.)</span>
+</div>
+</div>
+<!-- Detalle de estado y Checkpoint actual -->
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1.5 ml-1">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">pin_drop</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">En ruta - Checkpoint Ica / Pisco</span>
+<span class="font-body-sm text-body-sm text-tertiary">Último reporte: Hoy a las 14:20 hrs</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1 border-t-0 bg-surface-container-lowest/60 p-2 rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">schedule</span>
+            Llegada estimada: Mañana, 08:30 hrs
+          </span>
+<span class="font-label-sm text-label-sm text-primary font-bold">A tiempo</span>
+</div>
+</div>
+<!-- Info de carga y Consignatario -->
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm pl-1">
+<span class="truncate max-w-[210px]">
+          1 Caja (4.80 kg) • <strong>M. E. Valdivia</strong>
+</span>
+<button class="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:underline">
+          Ver mapa y ruta
+          <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- ENVÍO 2: Disponible para recojo en agencia -->
+<article class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative overflow-hidden transition-all hover:shadow-md cursor-pointer" data-category="pickup">
+<!-- Decoración de retiro listo -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary-container"></div>
+<!-- Cabecera de Tarjeta -->
+<div class="flex items-center justify-between gap-2 pl-1">
+<div class="flex items-center gap-1.5 bg-surface-container-low px-2 py-1 rounded-lg">
+<span class="material-symbols-outlined text-[16px] text-primary">store</span>
+<span class="font-label-code text-label-code text-on-surface">GRT-001-0039120</span>
+<button class="copy-btn text-tertiary hover:text-primary p-0.5" data-code="GRT-001-0039120" title="Copiar código">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm shadow-xs">
+<span class="material-symbols-outlined text-[14px]">task_alt</span>
+          ¡Listo para recojo!
+        </span>
+</div>
+<!-- Origen y Destino -->
+<div class="flex items-center justify-between pt-1 pl-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary">ORIGEN</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Lima (Fiori)</span>
+</div>
+<div class="flex items-center text-primary">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-tertiary">DESTINO</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Trujillo Central</span>
+</div>
+</div>
+<!-- Ubicación de retiro y Requisitos -->
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-2 ml-1">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">domain_verification</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Agencia Central Trujillo - Counter 02</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Av. Nicolás de Piérola 1240</span>
+</div>
+</div>
+<div class="bg-primary-fixed/40 p-2 rounded flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">badge</span>
+<span class="font-body-sm text-body-sm text-on-surface font-semibold">
+            Requisito: Presentar DNI original físico para retiro.
+          </span>
+</div>
+</div>
+<!-- Información adicional y acción de retiro -->
+<div class="flex items-center justify-between pl-1 pt-0.5">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary">HORARIO DE ATENCIÓN</span>
+<span class="font-body-sm text-body-sm text-on-surface font-semibold">Lun a Sáb 08:00 - 19:30</span>
+</div>
+<button class="h-9 px-3 rounded-lg bg-surface-container text-primary font-label-md text-label-md hover:bg-surface-container-high transition-colors flex items-center gap-1">
+          Ver requisitos
+          <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</article>
+<!-- ENVÍO 3: Recepcionado / Preparación de despacho -->
+<article class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative overflow-hidden transition-all hover:shadow-md cursor-pointer" data-category="reception">
+<!-- Decoración neutral -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-tertiary-container"></div>
+<!-- Cabecera de Tarjeta -->
+<div class="flex items-center justify-between gap-2 pl-1">
+<div class="flex items-center gap-1.5 bg-surface-container-low px-2 py-1 rounded-lg">
+<span class="material-symbols-outlined text-[16px] text-tertiary">inventory_2</span>
+<span class="font-label-code text-label-code text-on-surface">GRT-001-0051874</span>
+<button class="copy-btn text-tertiary hover:text-primary p-0.5" data-code="GRT-001-0051874" title="Copiar código">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-high text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">warehouse</span>
+          Recepcionado
+        </span>
+</div>
+<!-- Origen y Destino -->
+<div class="flex items-center justify-between pt-1 pl-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary">ORIGEN</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Arequipa</span>
+</div>
+<div class="flex items-center text-tertiary">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-tertiary">DESTINO</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Cusco (Wanchaq)</span>
+</div>
+</div>
+<!-- Detalle Patio de Carga -->
+<div class="bg-surface-container-low rounded-lg p-space-sm flex items-center justify-between ml-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[18px]">forklift</span>
+<span class="font-body-sm text-body-sm text-on-surface">
+            Clasificado en patio • Salida hoy <strong>18:00 hrs</strong>
+</span>
+</div>
+<span class="material-symbols-outlined text-tertiary text-[18px]">chevron_right</span>
+</div>
+</article>
+</div>
+<!-- Banner Informativo / Asistencia Operativa -->
+<div class="bg-surface-container-high/60 rounded-xl p-space-md flex flex-col gap-space-xs mt-1">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px]">headset_mic</span>
+<h2 class="font-headline-sm text-headline-sm">¿No encuentras tu envío?</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+      Si realizaste tu despacho en las últimas 2 horas, el manifiesto digital puede estar en consolidación. Contáctanos con tu comprobante físico.
+    </p>
+<div class="flex items-center gap-space-sm pt-2">
+<a class="flex-1 h-10 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-xs hover:bg-surface-container transition-colors" href="tel:017120000">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+        Central (01) 712-0000
+      </a>
+<a class="flex-1 h-10 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-xs hover:bg-surface-container transition-colors" href="https://wa.me/51999999999" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-[#25D366]">chat</span>
+        WhatsApp Oficial
+      </a>
+</div>
+</div>
+<!-- Toast de Notificación Micro-interactiva -->
+<div class="fixed bottom-20 left-1/2 -translate-x-1/2 z-50 bg-inverse-surface text-inverse-on-surface px-4 py-2 rounded-full font-label-md text-label-md shadow-lg flex items-center gap-2 opacity-0 pointer-events-none transition-all duration-300" id="toastNotification">
+<span class="material-symbols-outlined text-[18px] text-primary-fixed">check_circle</span>
+<span id="toastMessage">Código copiado al portapapeles</span>
+</div>
+</div>
+<script>
+  // Micro-interacción: Copiado de códigos de guía
+  const copyButtons = document.querySelectorAll('.copy-btn');
+  const toast = document.getElementById('toastNotification');
+  const toastMsg = document.getElementById('toastMessage');
+
+  function showToast(text) {
+    if (!toast) return;
+    toastMsg.textContent = text;
+    toast.classList.remove('opacity-0', 'pointer-events-none');
+    toast.classList.add('opacity-100');
+    setTimeout(() => {
+      toast.classList.remove('opacity-100');
+      toast.classList.add('opacity-0', 'pointer-events-none');
+    }, 2200);
+  }
+
+  copyButtons.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const code = btn.getAttribute('data-code');
+      if (code) {
+        navigator.clipboard?.writeText(code).then(() => {
+          showToast(`Guía ${code} copiada`);
+        }).catch(() => {
+          showToast(`Guía ${code}`);
+        });
+      }
+    });
+  });
+
+  // Micro-interacción: Filtros de estados
+  const filterPills = document.querySelectorAll('.filter-pill');
+  const articles = document.querySelectorAll('#shipmentList > article');
+
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      // Alternar estilo visual activo
+      filterPills.forEach(p => {
+        p.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+        p.classList.add('bg-surface-container', 'text-on-surface-variant');
+      });
+      pill.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      pill.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+
+      const filterValue = pill.getAttribute('data-filter');
+      articles.forEach(article => {
+        const category = article.getAttribute('data-category');
+        if (filterValue === 'all' || category === filterValue) {
+          article.style.display = 'flex';
+        } else {
+          article.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Micro-interacción: Búsqueda rápida
+  const btnSearch = document.getElementById('btnSearch');
+  const inputSearch = document.getElementById('trackingInput');
+
+  function handleSearch() {
+    const query = (inputSearch?.value || '').trim().toUpperCase();
+    if (!query) {
+      showToast('Ingresa un número de guía');
+      return;
+    }
+    let found = false;
+    articles.forEach(article => {
+      const text = article.innerText.toUpperCase();
+      if (text.includes(query)) {
+        article.style.display = 'flex';
+        found = true;
+      } else {
+        article.style.display = 'none';
+      }
+    });
+    if (!found) {
+      showToast('No se encontró el envío ' + query);
+    } else {
+      showToast('Mostrando resultado de ' + query);
+    }
+  }
+
+  btnSearch?.addEventListener('click', handleSearch);
+  inputSearch?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') handleSearch();
+  });
+
+  // Micro-interacción: Botón escáner
+  const btnScan = document.getElementById('btnScan');
+  btnScan?.addEventListener('click', () => {
+    showToast('Iniciando lector óptico de guía...');
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.05)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-space-xs min-w-[56px] min-h-[44px] text-tertiary transition-colors hover:text-primary" data-path="inicio" href="#"><span class="material-symbols-outlined text-[22px]">local_shipping</span><span class="font-label-sm text-label-sm">Inicio</span></a><a class="flex flex-col items-center justify-center gap-space-xs min-w-[56px] min-h-[44px] text-tertiary transition-colors hover:text-primary" data-path="seguimiento" href="#"><span class="material-symbols-outlined text-[22px]">qr_code_scanner</span><span class="font-label-sm text-label-sm">Seguimiento</span></a><a class="flex flex-col items-center justify-center gap-space-xs min-w-[56px] min-h-[44px] text-tertiary transition-colors hover:text-primary" data-path="cotizador" href="#"><span class="material-symbols-outlined text-[22px]">calculate</span><span class="font-label-sm text-label-sm">Cotizador</span></a><a class="flex flex-col items-center justify-center gap-space-xs min-w-[56px] min-h-[44px] text-tertiary transition-colors hover:text-primary" data-path="agencias-y-consultas" href="#"><span class="material-symbols-outlined text-[22px]">store</span><span class="font-label-sm text-label-sm">Agencias</span></a><a class="flex flex-col items-center justify-center gap-space-xs min-w-[56px] min-h-[44px] text-tertiary transition-colors hover:text-primary" data-path="perfil-corporativo" href="#"><span class="material-symbols-outlined text-[22px]">manage_accounts</span><span class="font-label-sm text-label-sm">Perfil</span></a></div></nav></body></html>
